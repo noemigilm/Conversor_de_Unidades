@@ -17,5 +17,10 @@ public class Conversor_de_Unidades {
     public static void main(String[] args) {
         // TODO code application logic here
     }
-    
+    public static double Lonxitude(){
+        int tipo;
+        double lonxitude=0;
+        return lonxitude;
+        
+    }
 }
