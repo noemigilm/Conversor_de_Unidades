@@ -43,12 +43,12 @@ static Scanner leer = new Scanner(System.in);
                 System.out.println(b);
                 break;
             case 3:
-                System.out.println("A seleccionado: KM a Millas");
+                System.out.println("A seleccionado: Millas a pulgadas");
                 b = b*63360;
                 System.out.println(b);
                 break;
             case 4:
-                System.out.println("A seleccionado: KM a Millas");
+                System.out.println("A seleccionado: Pulgadas a Millas");
                 b = b/63360;
                 System.out.println(b);
                 break;
