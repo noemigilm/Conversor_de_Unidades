@@ -9,7 +9,8 @@ package conversor_de_unidades;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-/** @autor Pablo
+/** 
+ * @autor Pablo
  * @autor Miguel
  * @author Noemi
  * @autor Ignacio
@@ -22,7 +23,13 @@ static Scanner leer = new Scanner(System.in);
     public static void main(String[] args) {
      
        Scanner sn = new Scanner(System.in);
+       /**
+        *@param salir salir del menú
+        */
         boolean salir = false;
+        /**
+        *@param opcion escoger opción del menú
+        */
         int opcion; //Guardaremos la opcion del usuario
  
         while (!salir) {
@@ -64,9 +71,14 @@ static Scanner leer = new Scanner(System.in);
     }
     private static int insertarNumero(){
         System.out.println("Introduzca la longitud a transformar: ");
+        /**
+         * @param longitud unidad a convertir
+         */
         int longitud=leer.nextInt();
         return longitud;
     }
+    
+    
      private static void lonxitude() {
         System.out.println("Seleccione un metodo de conversion");
         System.out.println("1. Transformar Kms a Millas");
@@ -74,8 +86,17 @@ static Scanner leer = new Scanner(System.in);
         System.out.println("3. Transformar Millas a Pulgadas");
         System.out.println("4. Transformar Pulgadas a Millas");
         System.out.println("0. Volver ó menú anterior");
+        /**
+        * @param a opción del submenú
+        */
         int a= leer.nextInt();
+        /**
+        * @param resultado resultado de la conversión
+        */
         double resultado;
+        /**
+        * @param b unidad a convertir
+        */
         double b=insertarNumero();
         switch (a) {
             case 1:
