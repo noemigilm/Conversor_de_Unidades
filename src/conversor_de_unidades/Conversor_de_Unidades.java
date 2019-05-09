@@ -9,9 +9,10 @@ package conversor_de_unidades;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-/**
- *
- * @author DAM110
+/** @autor Pablo
+ * @autor Miguel
+ * @author Noemi
+ * @autor Ignacio
  */
 public class Conversor_de_Unidades {
 static Scanner leer = new Scanner(System.in);
