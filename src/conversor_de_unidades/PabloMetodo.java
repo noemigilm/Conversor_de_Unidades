@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pablometodo;
+package conversor_de_unidades;
 
 import java.util.Scanner;
 
