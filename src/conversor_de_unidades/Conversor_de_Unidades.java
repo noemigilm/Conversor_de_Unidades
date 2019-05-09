@@ -18,17 +18,7 @@ public class Conversor_de_Unidades {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-    
-    /* public static double Lonxitude(){
-       int tipo;
-        double lonxitude=0;
-        return lonxitude;*/
-       
-   /* Scanner sc = new Scanner(System.in);*/
-    
-    
-       
+     
        Scanner sn = new Scanner(System.in);
         boolean salir = false;
         int opcion; //Guardaremos la opcion del usuario
@@ -58,10 +48,10 @@ public class Conversor_de_Unidades {
                         salir = true;
                         break;
                     default:
-                        System.out.println("Solo números entre 1 y 3");
+                        System.out.println("Solo nÃºmeros entre 1 y 3");
                 }
             } catch (InputMismatchException e) {
-                System.out.println("Debes insertar un número");
+                System.out.println("Debes insertar un nÃºmero");
                 sn.next();
             }
         }
