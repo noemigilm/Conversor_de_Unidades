@@ -75,6 +75,9 @@ static Scanner leer = new Scanner(System.in);
          * @param longitud unidad a convertir
          */
         int longitud=leer.nextInt();
+        /**
+         * @return devuelve la longitud
+         */
         return longitud;
     }
     
