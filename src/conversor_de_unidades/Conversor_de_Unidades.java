@@ -5,6 +5,7 @@
  */
 package conversor_de_unidades;
 
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -13,7 +14,7 @@ import java.util.Scanner;
  * @author DAM110
  */
 public class Conversor_de_Unidades {
-
+static Scanner leer = new Scanner(System.in);
     /**
      * @param args the command line arguments
      */
@@ -38,10 +39,11 @@ public class Conversor_de_Unidades {
                     case 1:
                         System.out.println("Has seleccionado la opcion Conversion de Longitud");
                         System.out.println("introduce los datos:");
-                        
+                        lonxitude();
                         break;
                     case 2:
                         System.out.println("Has seleccionado la opcion 2");
+                        
                         break;
                     
                     case 3:
@@ -58,5 +60,48 @@ public class Conversor_de_Unidades {
  
     
         
+    }
+    private static int insertarNumero(){
+        System.out.println("Introduzca la longitud a transformar: ");
+        int longitud=leer.nextInt();
+        return longitud;
+    }
+     private static void lonxitude() {
+        System.out.println("Seleccione un metodo de conversion");
+        System.out.println("1. Transformar Kms a Millas");
+        System.out.println("2. Transformar Millas a Kms");
+        System.out.println("3. Transformar Millas a Pulgadas");
+        System.out.println("4. Transformar Pulgadas a Millas");
+        System.out.println("0. Volver ó menú anterior");
+        int a= leer.nextInt();
+        double resultado;
+        double b=insertarNumero();
+        switch (a) {
+            case 1:
+                System.out.println("A seleccionado: KM a Millas");
+                resultado = b*0.621371;
+                System.out.println(resultado);
+                break;
+            case 2:
+                System.out.println("A seleccionado: Millas a KM");
+                resultado = b*1.60934;
+                System.out.println(resultado);
+                break;
+            case 3:
+                System.out.println("A seleccionado: Millas a pulgadas");
+                resultado = b*63360;
+                System.out.println(resultado);
+                break;
+            case 4:
+                System.out.println("A seleccionado: Pulgadas a Millas");
+                resultado = b/63360;
+                System.out.println(resultado);
+                break;
+            case 0:
+                System.out.println("A seleccionado: Volver al anterior menu");
+                break;
+            default:
+                break;
+        }
     }
 }
