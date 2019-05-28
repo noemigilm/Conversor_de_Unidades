@@ -1,0 +1,7 @@
+0000000000000000000000000000000000000000 cf0116a7866a7e3580bd4770362e039cc8dd31c0 Guard <pablolorenzoagrela@gmail.com> 1557231336 +0200	branch: Created from master
+cf0116a7866a7e3580bd4770362e039cc8dd31c0 b6f69cfdcecf1699b21c0ffe5f7c218ebc10b9f4 Guard <pablolorenzoagrela@gmail.com> 1557231600 +0200	commit: Testeando la funcionalidad de rama Guard
+b6f69cfdcecf1699b21c0ffe5f7c218ebc10b9f4 151b15409d026e708c448a45db1597517eac6b87 Guard <pablolorenzoagrela@gmail.com> 1557232606 +0200	commit: en proceso de hacer el metodo Longitud
+151b15409d026e708c448a45db1597517eac6b87 43d05bba5d1010c22dc8030b02090eb6e8483d13 Guard <pablolorenzoagrela@gmail.com> 1557233773 +0200	commit: Metodo Longitud acabado con menu incorporado
+43d05bba5d1010c22dc8030b02090eb6e8483d13 b13a7262cb1c9e63fc89dff94aab07e241dacf08 Guard <pablolorenzoagrela@gmail.com> 1557233859 +0200	commit: Metodo Longitud corregido
+b13a7262cb1c9e63fc89dff94aab07e241dacf08 8d3097499f8f195430ffdaf3e53defe1a5d82165 Guard <pablolorenzoagrela@gmail.com> 1557989223 +0200	commit: metodo potencias añadido
+8d3097499f8f195430ffdaf3e53defe1a5d82165 6ea7ea6c3e7162b583e20137f7cd052b00e6b931 Guard <pablolorenzoagrela@gmail.com> 1557989813 +0200	commit: metodo Temperatura añadido
