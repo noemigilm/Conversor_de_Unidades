@@ -182,43 +182,7 @@ static Scanner leer = new Scanner(System.in);
         
     }
     
-//    private static void Potencia() {
-//            double c=insertarNumero();
-//            System.out.println("Seleccione un metodo de conversion");
-//            System.out.println("1. Transformar WK a CV");
-//            System.out.println("2. Transformar CV a KW");
-//            System.out.println("3. Transformar KW a Ft/Lb");
-//            System.out.println("4. Transformar Ft/lb a KW");  
-//            System.out.println("0. Volver ó menú anterior");
-//            int a= leer.nextInt();
-//            switch (a) {
-//                case 1:
-//                    System.out.println("A seleccionado: KW a CV");
-//                    c = c*1.34102;
-//                    System.out.println(c);
-//                    break;
-//                case 2:
-//                    System.out.println("A seleccionado: CV a KW");
-//                    c = c*0.7457;
-//                    System.out.println(c);
-//                    break;
-//                case 3:
-//                    System.out.println("A seleccionado: KW a Ft/Lb");
-//                    c = c*737.562149;
-//                    System.out.println(c);
-//                    break;
-//                case 4:
-//                    System.out.println("A seleccionado: Ft/Lb a KW");
-//                    c = c*0.0013558179;
-//                    System.out.println(c);
-//                    break;
-//                case 0:
-//                    System.out.println("A seleccionado: Volver al anterior menu");
-//                    break;
-//                default:
-//                    break;
-//            }
-//        }
+
     private static void Potencia(){
     boolean comprobar=true;
         System.out.println("Seleccione la potencia a convertir");
@@ -301,6 +265,7 @@ static Scanner leer = new Scanner(System.in);
         }
         
     }
+    
         private static void Temperatura() {
             double d=insertarNumero();
             System.out.println("Seleccione un metodo de conversion");
