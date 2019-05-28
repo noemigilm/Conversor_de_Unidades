@@ -81,6 +81,7 @@ static Scanner leer = new Scanner(System.in);
          * @return devuelve la longitud
          */
         return numero;
+
     }
 
     private static void lonxitude() {
@@ -180,6 +181,7 @@ static Scanner leer = new Scanner(System.in);
             System.out.println("La Cantidad convertida es: "+b);
         }
         
+
     }
     
 
@@ -265,7 +267,7 @@ static Scanner leer = new Scanner(System.in);
         }
         
     }
-    
+
         private static void Temperatura() {
             double d=insertarNumero();
             System.out.println("Seleccione un metodo de conversion");
@@ -303,4 +305,8 @@ static Scanner leer = new Scanner(System.in);
                     break;
             }
         }
+
 }
+
+
+
